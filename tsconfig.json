@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2016", // Target modern but widely compatible JS
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true, // Recommended for stricter checks
+    "forceConsistentCasingInFileNames": true,
+
+    /* Bundler Behavior */
+    "module": "CommonJS", // Output CommonJS modules
+    "outDir": "./dist",   // Output directory
+    "rootDir": "./src",   // Source directory
+
+    /* Type Declarations */
+    "declaration": true,             // Generate .d.ts files
+    "declarationMap": true,          // Generate sourcemaps for declarations
+    "sourceMap": true,               // Generate .js.map files for debugging
+
+    /* Library Settings */
+    "lib": ["ESNext", "DOM", "DOM.Iterable"] // Include DOM types for fetch/browser compatibility
+  },
+  "include": ["src/**/*"], // Files to include in compilation
+  "exclude": ["node_modules", "dist"] // Folders to exclude
+}

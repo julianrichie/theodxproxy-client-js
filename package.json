@@ -1,0 +1,51 @@
+{
+  "name": "@julianrichie/theodxproxy-client-js",
+  "version": "0.1.0",
+  "description": "TypeScript client library for TheODXProxy API (Odoo Reverse Proxy)",
+  "main": "dist/index.js", 
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianrichie/theodxproxy-client-js.git"
+  },
+  "keywords": [
+    "odoo",
+    "proxy",
+    "api",
+    "client",
+    "typescript",
+    "json-rpc",
+    "odxproxy",
+    "sdk"
+  ],
+  "author": "Julian Wajong<julian.wajong@gmail.com>",
+  "license": "MIT", 
+  "bugs": {
+    "url": "https://github.com/julianrichie/theodxproxy-client-js/issues"
+  },
+  "homepage": "https://github.com/julianrichie/theodxproxy-client-js#readme",
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=20"
+  }
+}
