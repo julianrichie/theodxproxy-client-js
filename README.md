@@ -22,6 +22,7 @@ Using npm:
 
 ```bash
 npm install @julianrichie/theodxproxy-client-js
+```
 
 ```typescript
 // apiClient.ts
@@ -41,6 +42,7 @@ export function getApiClient(): OdooProxyApiClient {
   }
   return apiClient;
 }
+```
 
 
 ```typescript
@@ -112,3 +114,4 @@ searchPartners('some_partner').then(partners => {
 }).catch(err => {
     console.error("Failed to complete search operation:", err);
 });
+```
