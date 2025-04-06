@@ -21,4 +21,4 @@ This client is designed for browser environments (or Node.js with `fetch` availa
 Using npm:
 
 ```bash
-npm install @julianrichie/theodxproxys-client-js
+npm install @julianrichie/theodxproxy-client-js
